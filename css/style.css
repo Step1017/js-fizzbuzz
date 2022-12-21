@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+li {
+    flex-basis: 75px;
+    height: 75px;
+    background-color: coral;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fizz {
+    background-color: rgb(57, 98, 187);
+}
+
+.buzz {
+    background-color: orange;
+}
+
+.fizzbuzz {
+    background-color: rgb(143, 211, 126);
+}
